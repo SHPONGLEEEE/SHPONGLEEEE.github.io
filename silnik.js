@@ -6,7 +6,7 @@ kaboom();
 // wczytywanie obrazków
 
 loadSprite("tlo","Kartkaswiateczna.png")
-loadSprite("obrazek","renifer.png")
+loadSprite("obrazek","Renifer.png")
 loadSound("muzyka", "Cicha noc.mp3")
 
 // add a piece of text at position (120, 80)
