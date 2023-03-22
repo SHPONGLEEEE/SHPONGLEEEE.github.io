@@ -6,7 +6,7 @@ kaboom();
 // wczytywanie obrazków
 
 loadSprite("tlo","Kartkaswiateczna.png")
-loadSprite("obrazek","Renifer.png")
+loadSprite("obrazek","renifer.png")
 loadSound("muzyka", "Cicha noc.mp3")
 
 // add a piece of text at position (120, 80)
@@ -23,9 +23,10 @@ const renifer = add([
     sprite("obrazek"),
     pos(230,130)
 ])
- add([
-    play("muzyka")
- ])
+
+onMouseRelease(()=>play("muzyka"))
+
+
 var yMinus = 1;
 var xMinus = 1;
 onUpdate(()=>{
